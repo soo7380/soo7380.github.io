@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+       <style>
+        table, th, td{
+        border-collapse: collapse;
+        border: 1px solid black;
+        }
+        th, td {
+            padding:10px
+        }
+
+           footer {
+                color: black; background-color: skyblue;
+                text-align: center; font-size: 40px;
+                margin: 1px;
+           }
+           header {
+               background-image: url(backgound.png);
+               color: skyblue;
+                padding: 25px; clear: left;
+                text-align: center;
+                font-size: 30px;
+           }
+        nav{
+            float:left;
+            max-width: 160px;
+            margin: 0;
+            padding: 1em;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 2px;
+            color: black;
+        }
+        nav ul li{
+            display: block;
+            background-color: black;
+            margin: 3px;
+            font-size: 30px;
+        }
+        nav ul li:hover{
+            background-color: grey;
+        }
+        article{
+            margin-left: 170px;
+            border-left: 1px solid grey;
+            padding: 1em;
+            overflow: auto;
+        }
+    h2{background-color: darkcyan; color: aliceblue;
+        width: 300px; text-align: center;
+    }
+    ul{
+        list-style-type: none; margin: 0; padding: 0;
+        overflow: hidden; background-color: #333333;
+    }
+    li a{ display: block; color: white; text-align: center;
+    padding: 16px; text-decoration: none}
+    li a:hover{background-color: #111111}
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome To The Soo's Music World</h1></header>
+     <nav>
+         <ul>
+                <li><a href="top1.html">top3</a></li>
+                <li><a href="top2.html">top2</a></li>
+                <li><a href="top3.html">Top1</a></li>
+                <li><a href="yourturn.html">Your Turn</a></li>
+            </ul>
+     </nav>
+     <article>
+   <form action="">
+    <fieldset>
+    <legend>What's your Favorit Music</legend>
+     <div align="center"><table>
+      <tr>
+          <td>
+            <fieldset>
+            <legend>Genre</legend>
+            <input type="radio" name="genre" value="pop" id="pop"checked>
+            <label for="pop">POP</label>
+            <input type="radio" name="genre" value="R&B" id="R&B">
+            <label for="R&B">R&amp;B</label>
+            <input type="radio" name="genre" value="ballad" id="ballade">
+                <label for="ballade">Ballade</label>
+            <input type="radio" name="genre" value="dance" id="dance">
+            <label for="dance" id="dance">dance</label>
+            <input type="radio" name="genre" value="others" id="Other:">
+            <label for="Other:" id="Other:">Other:</label>
+            <input type="text">
+            </fieldset>
+            </td>
+        </tr>
+        <tr>
+          <td>
+           <fieldset>
+            <legend>Musician</legend>
+            <label for="name" id="name">name: </label>
+            <input type="text" autofocus>
+            </fieldset>
+            </td>
+        </tr>
+        <tr>
+          <td>
+           <fieldset>
+            <legend>Music</legend>
+            <label for="name" id="name">name: </label>
+            <input type="text"><br>
+            </fieldset>
+            </td>
+         </tr>
+        <tr>
+            <td>
+            <input type="submit"><input type="reset">
+            </td>
+        </tr>       
+    </table></div>
+    </fieldset>
+    </form>
+    </article>
+    <footer>
+        <p>Thank you for your comment</p>
+    </footer>
+</body>
+</html>
